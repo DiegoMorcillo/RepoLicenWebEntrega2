@@ -1,0 +1,385 @@
+
+/* FORMATO GENERAL DE LA PAGINA */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ESTILOS DE ENTREGA ANTERIOR /*
+
+/* .estiloHeader {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 15px;
+}
+
+#Logo {
+    height: 4rem;
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.gralNav {
+    display: flex;
+    margin: 8px;
+}
+
+.gralNav li {
+    margin: 0rem 1rem;
+
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+}
+
+.espacioGralInicio {
+    height: 60rem;
+    background-image: url(../Imagenes/Desarrollos\ Inmobiliarios\ render.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.estiloFooter {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textoPiePaginas {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    text-align: justify;
+    width: 25rem;
+}
+
+.infoAdicional {
+    margin: 1rem;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.infoAdicional li {
+    margin: 1rem;
+}
+
+.enlacesRedes a {
+    margin: 1rem;
+}
+
+.cuerpoSobreNosotros {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cuerpoSobreNosotros h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+    text-align: center;
+}
+
+.textoDescriptivo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 2rem;
+}
+
+.textoDescriptivo p {
+    margin-top: 3rem;
+    color: dimgrey;
+    font-size: 17px;
+
+}
+
+.tituloPgServicios {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    background-color: darkgrey;
+}
+
+.ubicacionElementos {
+    display: flex;
+}
+
+.tituloSecundario {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 2rem 0rem 0rem 3rem;
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.estiloDeTextoServicios {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 35rem;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.estiloDeTextoServicios h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 35px;
+}
+
+.estiloDeTextoServicios p {
+    text-align: justify;
+    width: 25rem;
+    font-size: 25px;
+    font-style: italic;
+    color: dimgrey;
+    margin-top: 3rem;
+    margin: 5rem;
+}
+
+.imagenArquitectonico {
+    width: 45rem;
+    margin-left: 5rem;
+}
+
+.ImagenIlumincion {
+    height: 35rem;
+    margin-left: 5rem;
+}
+
+.estilostextoIluminacion {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 35rem;
+    margin-top: 3rem;
+    margin-left: 7%;
+}
+
+.estilostextoIluminacion h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 35px;
+}
+
+.estilostextoIluminacion p {
+    text-align: justify;
+    width: 25rem;
+    font-size: 25px;
+    font-style: italic;
+    color: dimgrey;
+    margin-top: 3rem;
+    margin: 5rem;
+}
+
+.imagenDiseñoInterior {
+    height: 35rem;
+    margin-left: 12rem;
+    margin-top: 2rem;
+}
+
+.imagenGrafica {
+    height: 40rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+
+.imagenVivienda1 {
+    margin: 2rem;
+}
+
+.imagenVivienda2 {
+    margin: 2rem;
+    width: 35rem;
+}
+
+.imagenesViviendas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagenClinica1 {
+    width: 45rem;
+    margin: 2rem;
+}
+
+.imagenclinica2 {
+    margin: 2rem;
+}
+
+.imagenGastro1 {
+    width: 45rem;
+    margin-top: 3rem;
+}
+
+.imagenGastro2 {
+    margin-top: 3rem;
+}
+
+.imagenHotel {
+    width: 35rem;
+    margin-top: 2rem;
+}
+
+.imagenTeatro {
+    width: 45rem;
+    margin-top: 2rem;
+}
+
+.imagenGym {
+    width: 35rem;
+    margin: 3rem;
+}
+
+.imagenPadel {
+    width: 45rem;
+    margin: 3rem;
+}
+
+.titulosContactos {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
+.otroTitulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+}
+
+.mapaInput {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.mapa {
+    width: 40rem;
+}
+
+.datosOficina {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 2rem;
+    color: dimgrey;
+    display: flex;
+}
+
+.titulotercero {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: dimgray;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 1rem;
+
+}
+
+.formulario {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: dimgray;
+
+}
+
+.formulario2 {
+    margin-bottom: 10px;
+}
+
+.espacioNombre {
+    width: 35rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 25px;
+}
+
+.titulotelefono {
+    margin-left: 28rem;
+}
+
+.ingresoTelmail {
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+
+}
+
+.telefonoInput {
+    margin-left: 170px;
+    width: 12rem;
+    height: 25px;
+}
+
+.mailInput {
+    width: 12rem;
+    height: 25px;
+}
+
+.ingreMensaje {
+    width: 35rem;
+    height: 10rem;
+
+}
+
+.submit {
+    color: dimgray;
+    border: 2px solid rgb(167, 166, 166);
+    padding: 3px;
+    margin-left: 580px;
+    text-align: center;
+    align-items: center;
+    height: 20px;
+
+
+}
+
+.prueba {
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+} */
+
+
+/* ESTILO ESPECIAL /*
