@@ -46,61 +46,59 @@
             </div>
         </nav>
     </header>
-    
+
     <main>
-        <section>
-            <div class="titulosContactos">
-                <h2 class="otroTitulo">¿Donde estamos?</h2>
-                <h1>Dejanos tu constula</h1>
+        <div class="justify-content-center">
+            <div class="mt-2 mb-2">
+                <h1 class="text-center">¿Donde estamos?</h1>
+                <div class="mapaInput">
+                    <iframe class="mapa"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d290.57195545074416!2d-58.54266171652262!3d-34.5169165108096!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb09a7f450ee7%3A0x7f65e46b3ae926fa!2sOm%20Sal%C3%B3n%20de%20Belleza!5e0!3m2!1ses!2sar!4v1702181892516!5m2!1ses!2sar"
+                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">Mapa
+                    </iframe>
+                </div>
             </div>
-            <section>
-            </section>
-            <div class="mapaInput">
-                <iframe class="mapa"
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d290.57195545074416!2d-58.54266171652262!3d-34.5169165108096!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb09a7f450ee7%3A0x7f65e46b3ae926fa!2sOm%20Sal%C3%B3n%20de%20Belleza!5e0!3m2!1ses!2sar!4v1702181892516!5m2!1ses!2sar"
-                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">Mapa
-                </iframe>
-                <form class="formulario" action="">
-                    <div>
-                        <label for="nombreUsuario">Nombre y apellido</label>
+            <div class="mt-2 mb-2">
+                <h1 class="text-center">Dejanos tu consulta</h1>
+                <div>
+                    <div class="row">
+                        <div class="col-lg-12" data-aos="fade-up">
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <label for="name">Nombre y Apellido</label>
+                                        <input type="text" name="" placeholder="Juan Perez" class="form-control" id="name" required>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <label for="name">Email</label>
+                                        <input type="email" class="form-control" name="email" placeholder="ejemplo@gmail.com" id="email" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="name">Asunto</label>
+                                        <input type="text" class="form-control" placeholder="De que se trata su consulta" name="subject" id="subject" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="name">Mensaje</label>
+                                        <textarea class="form-control" placeholder="Escrba aquí su mensaje" name="message" cols="30" rows="5"
+                                            required></textarea>
+                                    </div>
+                                    <div class="col-lg-12 mt-2">
+                                        <input type="submit" class="d-block w-100" value="Enviar mensaje">
+                                    </div>
+                                </div>
+
+                            </form>
+
+                        </div>
                     </div>
-                    <div>
-                        <input class="espacioNombre" placeholder="Juan Perez" type="text" name="nombreUsuario">
-                    </div>
-                    <div class="ingresoTelmail">
-                        <label for="Correo">Correo</label>
-                        <label class="titulotelefono" for="telefono">Telefono</label>
-                    </div>
-                    <div class="ingresoTelmail">
-                        <input class="mailInput" placeholder="ejemplo@gmail.com" type="email" name="Correo">
-                        <input class="telefonoInput" placeholder="11-1234-5678" type="number">
-                    </div>
-                    <div class="formulario2">
-                        <label for="mensaje">Mensaje</label>
-                    </div>
-                    <div>
-                        <input class="ingreMensaje" placeholder="Ingresa tu mensaje" type="text">
-                    </div>
-                </form>
+                </div>
             </div>
-        </section>
-        <section class="prueba">
-            <div class="titulotercero">
-                <h2>Gran Buenos Aires Norte</h2>
-            </div>
-            <div class="datosOficina">
-                <ul>
-                    <li>Calle Falsa 456</li>
-                    <li>4891-2345</li>
-                    <li>licendesarrollos@gmail.com</li>
-                </ul>
-                <button class="submit">Enviar</button>
-            </div>
-        </section>
+
+        </div>
     </main>
 
-     <footer>
+    <footer>
         <div class="container-fluid">
             <div class="row justify-content-center">
 
@@ -119,15 +117,14 @@
                 <div class="col-lg-2 text-center infoAdicional">
                     <h2>¿Donde estamos?<br />Calle falsa 456</h2>
                 </div>
-                
+
                 <div class="col-lg-2 row text-center align-items-center enlacesRedes">
                     <div>
                         <a class="col-lg-4" href="http://www.facebook.com/?locale=es_LA" target="_blank"
                             rel="noopener noreferrer">
                             <iconify-icon icon="devicon:facebook"></iconify-icon>
                         </a>
-                        <a class="col-lg-4" href="http://www.instagram.com/" target="_blank"
-                            rel="noopener noreferrer">
+                        <a class="col-lg-4" href="http://www.instagram.com/" target="_blank" rel="noopener noreferrer">
                             <iconify-icon icon="skill-icons:instagram"></iconify-icon>
                         </a>
                         <a class="col-lg-4" href="http://www.linkedin.com/home" target="_blank"
