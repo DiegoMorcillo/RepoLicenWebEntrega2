@@ -54,51 +54,6 @@ h1 {
     color: white;
 }
 
-
-
-/* .ubNav {
-    margin-left: 45rem;
-    margin-top: 5rem;
-} */
-
-/* .nav-link {
-    background-color: blueviolet;
-    font-size: 18px;
-} */
-
-/* #navbarSupportedContent {
-    background-color: violet;
-    text-decoration: none;
-}
-
-.nav-item a {
-    color: yellow;
-    font-size: 20px;
-}
-
-
-@media (max-width:990px) {
-    .logoLicen {
-        margin-right: 65%;
-    }
-} */
-
-/* a {
-    text-decoration: none;
-    list-style: none;
-    font-size: 18px;
-} */
-
-/* .gralNav {
-    display: flex;
-    list-style: none;
-} */
-
-/* .gralNav a {
-    margin: 0rem 1rem;
-    color: blueviolet;
-} */
-
 /* ESTILOS EN EL FOOTER */
 
 .estiloFooter {
@@ -457,6 +412,61 @@ h1 {
     align-items: center;
     height: 20px;
 }
+
+
+
+
+
+
+
+/* .ubNav {
+    margin-left: 45rem;
+    margin-top: 5rem;
+} */
+
+/* .nav-link {
+    background-color: blueviolet;
+    font-size: 18px;
+} */
+
+/* #navbarSupportedContent {
+    background-color: violet;
+    text-decoration: none;
+}
+
+.nav-item a {
+    color: yellow;
+    font-size: 20px;
+}
+
+
+@media (max-width:990px) {
+    .logoLicen {
+        margin-right: 65%;
+    }
+} */
+
+/* a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+} */
+
+/* .gralNav {
+    display: flex;
+    list-style: none;
+} */
+
+/* .gralNav a {
+    margin: 0rem 1rem;
+    color: blueviolet;
+} */
+
+
+
+
+
+
 
 
 
