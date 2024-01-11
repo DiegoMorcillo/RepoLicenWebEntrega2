@@ -64,6 +64,7 @@ h1 {
 } */
 
 
+
 .gralNav a {
     margin: 0rem 1rem;
     color: blueviolet;
@@ -379,7 +380,7 @@ h1 {
 /* Estilos en formulairo */
 
 .formulario {
-   color: dimgray;
+     color: dimgray;
 
 }
 
