@@ -1,44 +1,78 @@
-
-.container-fluid {
-    background-color: black;
-}
-
-/* .logoLicen {
-    height: 110px;
-} */
-
 .navbar {
     --bs-navbar-padding-x: 0;
     --bs-navbar-padding-y: 0;
+
+    .container-fluid {
+        background-color: black;
+
+        .hambToggler {
+            background-color: gray;
+        }
+
+        div {
+            .nav-menu * {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                display: inline-block;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    color: white;
+                    padding: 10px 18px;
+                    margin-bottom: 8px;
+                    font-size: 15px;
+                    height: 56px;
+                    width: 100%;
+                }
+
+                .nav-item {
+                    color: white;
+                    position: relative;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
 }
 
-.nav-menu * {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: inline-block;
-}
 
-.nav-menu>ul>li {
-    position: relative;
-    white-space: nowrap;
-}
+/*------------------estilos header--------------------*/
 
-.nav-menu a {
-    display: flex;
-    align-items: center;
-    color: white;
-    padding: 10px 18px;
-    margin-bottom: 8px;
-    font-size: 15px;
-    height: 56px;
-    width: 100%;
-}
+// .container-fluid {
+//     background-color: black;
+// }
 
-.nav-item {
-    color: white;
-}
+// .hambToggler {
+//     background-color: gray;
+// }
 
-.hambToggler {
-    background-color: gray;
-}
+// .nav-menu * {
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+//     display: inline-block;
+// }
+
+// .nav-menu>ul>li {
+//     position: relative;
+//     white-space: nowrap;
+// }
+
+// .nav-menu a {
+//     display: flex;
+//     align-items: center;
+//     color: white;
+//     padding: 10px 18px;
+//     margin-bottom: 8px;
+//     font-size: 15px;
+//     height: 56px;
+//     width: 100%;
+// }
+
+// .nav-item {
+//     color: white;
+// }
+
+/*------------------estilos viejos header--------------------*/
