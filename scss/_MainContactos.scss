@@ -1,21 +1,27 @@
-.mapa {
-    width: 100%
-}
-
 .mapaInput {
     display: flex;
     justify-content: space-around;
     margin: 2rem;
+
+    .mapa {
+        width: 100%
+    }
 }
+
 
 
 .formContact {
     margin-left: 2rem;
     margin-right: 2rem;
+
+    div {
+        div {
+            .buttonEnviar {
+                background-color: rgb(218, 218, 218);
+                border: none;
+                border-radius: 5px;
+            }
+        }
+    }
 }
 
-.buttonEnviar {
-    background-color: rgb( 218, 218, 218 );
-    border: none;
-    border-radius: 5px;
-}

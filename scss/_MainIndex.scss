@@ -1,14 +1,22 @@
-.iconArrow {
-    background-color: black;
-    border-radius: 0.5rem;
-}
-
-
 .MarginGral {
     margin: 3%;
+
+    div {
+        button {
+            .iconArrow {
+                background-color: black;
+                border-radius: 0.5rem;
+            }
+        }
+
+        .Conocenos {
+            text-decoration: none;
+            color: black;
+        }
+
+    }
+
 }
 
-.Conocenos {
-    text-decoration: none;
-    color: black;
-}
+
+

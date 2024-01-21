@@ -121,7 +121,7 @@ h3 {
 /* ESTILOS EN EL FOOTER */
 
 .estiloFooter {
-    background-color: black;
+    background-color: red;
     height: auto;
     display: flex;
     justify-content: space-around;

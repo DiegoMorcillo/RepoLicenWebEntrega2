@@ -46,7 +46,6 @@ h3 {
     height: 110px;
   }
 }
-/* Estilos de texto para varias paginas*/
 .textoDescriptivo {
   text-align: center;
   padding: 2rem;
@@ -99,18 +98,48 @@ h3 {
   white-space: nowrap;
 }
 
-/*------------------estilos header--------------------*/
-/*------------------estilos viejos header--------------------*/
-.iconArrow {
+.container-fluid {
   background-color: black;
-  border-radius: 0.5rem;
+}
+.container-fluid div .textoPiePaginas {
+  font-style: italic;
+  text-align: justify;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.container-fluid div .textoPiePaginas p {
+  color: white;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.container-fluid div .infoAdicional {
+  color: white;
+  margin-top: 25px;
+}
+.container-fluid div .enlacesRedes a {
+  font-size: 30px;
+}
+.container-fluid div .enlacesRedes2 {
+  margin-top: 25px;
+}
+.container-fluid div .enlacesRedes2 a {
+  color: white;
+  text-decoration: none;
+}
+.container-fluid div .enlacesRedes2 .enlaceRedes3 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
 }
 
 .MarginGral {
   margin: 3%;
 }
-
-.Conocenos {
+.MarginGral div button .iconArrow {
+  background-color: black;
+  border-radius: 0.5rem;
+}
+.MarginGral div .Conocenos {
   text-decoration: none;
   color: black;
 }
@@ -127,80 +156,23 @@ h3 {
   text-align: center;
 }
 
-.mapa {
-  width: 100%;
-}
-
 .mapaInput {
   display: flex;
   justify-content: space-around;
   margin: 2rem;
+}
+.mapaInput .mapa {
+  width: 100%;
 }
 
 .formContact {
   margin-left: 2rem;
   margin-right: 2rem;
 }
-
-.buttonEnviar {
+.formContact div div .buttonEnviar {
   background-color: rgb(218, 218, 218);
   border: none;
   border-radius: 5px;
-}
-
-.estiloFooter {
-  background-color: black;
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: auto;
-}
-
-/* .logoLicen2 {
-    height: 110px;
-} */
-.textoPiePaginas {
-  font-style: italic;
-  text-align: justify;
-}
-
-.textoPiePaginas p {
-  color: white;
-  font-size: 14px;
-  margin-top: 15px;
-}
-
-.infoAdicional {
-  color: white;
-  margin-top: 25px;
-}
-
-.infoAdicional li {
-  list-style: none;
-}
-
-.infoAdicional h2 {
-  font-size: 20px;
-}
-
-.enlacesRedes a {
-  font-size: 30px;
-}
-
-.enlacesRedes2 {
-  margin-top: 25px;
-}
-
-.enlacesRedes2 a {
-  color: white;
-  text-decoration: none;
-}
-
-.enlaceRedes3 {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

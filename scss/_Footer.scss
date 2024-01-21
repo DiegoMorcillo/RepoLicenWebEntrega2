@@ -1,55 +1,121 @@
-.estiloFooter {
+.container-fluid {
     background-color: black;
-    height: auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: auto;
+
+    div {
+        .textoPiePaginas {
+            font-style: italic;
+            text-align: justify;
+           padding-left: 3rem;
+           padding-right: 3rem;
+
+            p {
+                color: white;
+                font-size: 14px;
+                margin-top: 15px;
+            }
+        }
+
+        .infoAdicional {
+            color: white;
+            margin-top: 25px;
+        }
+
+        .enlacesRedes {
+            a {
+                font-size: 30px;
+            }
+        }
+
+        .enlacesRedes2 {
+            margin-top: 25px;
+
+            a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .enlaceRedes3 {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 2rem;
+            }
+        }
+    }
 }
 
-/* .logoLicen2 {
-    height: 110px;
-} */
 
-.textoPiePaginas {
-    font-style: italic;
-    text-align: justify;
-}
 
-.textoPiePaginas p {
-    color: white;
-    font-size: 14px;
-    margin-top: 15px;
-}
 
-.infoAdicional {
-    color: white;
-    margin-top: 25px;
-}
 
-.infoAdicional li {
-    list-style: none;
-}
 
-.infoAdicional h2 {
-    font-size: 20px;
-}
 
-.enlacesRedes a {
-    font-size: 30px;
-}
 
-.enlacesRedes2 {
-    margin-top: 25px;
-}
 
-.enlacesRedes2 a {
-    color: white;
-    text-decoration: none;
-}
 
-.enlaceRedes3 {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 2rem;
-}
+
+
+// .estiloFooter {
+//     background-color: black;
+//     height: auto;
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+//     width: auto;
+// }
+
+// .textoPiePaginas {
+//     font-style: italic;
+//     text-align: justify;
+// }
+
+// .textoPiePaginas p {
+//     color: white;
+//     font-size: 14px;
+//     margin-top: 15px;
+// }
+
+
+
+
+// .infoAdicional {
+//     color: white;
+//     margin-top: 25px;
+// }
+
+// .infoAdicional li {
+//     list-style: none;
+// }
+
+// .infoAdicional h2 {
+//     font-size: 20px;
+// }
+
+
+
+
+
+// .enlacesRedes a {
+//     font-size: 30px;
+// }
+
+
+
+
+// .enlacesRedes2 {
+//     margin-top: 25px;
+// }
+
+// .enlacesRedes2 a {
+//     color: white;
+//     text-decoration: none;
+
+// }
+
+
+
+
+// .enlaceRedes3 {
+//     display: flex;
+//     flex-direction: column;
+//     margin-bottom: 2rem;
+// }
