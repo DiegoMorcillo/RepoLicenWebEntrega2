@@ -30,6 +30,23 @@ h3 {
     }
     }
 
+    @media (max-width: 656px) {
+        .logoLicen {
+            height: 70px;
+            }
+        .logoLicen2 {
+            height: 70px;
+        }    
+    }
+
+    @media (min-width: 657px){
+        .logoLicen{
+            height: 110px;
+        }
+        .logoLicen2{
+            height: 110px;
+        }
+    }    
 
 
 /* Estilos de texto para varias paginas*/
@@ -52,9 +69,9 @@ h3 {
     background-color: black;
 }
 
-.logoLicen {
+/* .logoLicen {
     height: 110px;
-}
+} */
 
 .navbar {
     --bs-navbar-padding-x: 0;
@@ -104,9 +121,9 @@ h3 {
     width: auto;
 }
 
-.logoLicen2 {
+/* .logoLicen2 {
     height: 110px;
-}
+} */
 
 .textoPiePaginas {
     font-style: italic;
@@ -161,7 +178,6 @@ h3 {
 }
 
 .cuerpoSobreNosotros h1 {
-    font-size: 50px;
     font-style: italic;
     color: black;
     text-align: center;
@@ -218,7 +234,14 @@ h3 {
 }
 
 
-
+@media (max-width: 656px) {
+    h1 {
+        font-size: 30px;
+            }
+    h2 {
+        font-size: 30px;
+    }
+    }
 
 
 
