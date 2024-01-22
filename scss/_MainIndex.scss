@@ -10,7 +10,7 @@
         }
 
         .Conocenos {
-            text-decoration: none;
+            text-decoration: map-get($textos , sinSubrrallar ) ;
             color: black;
         }
 

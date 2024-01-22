@@ -1,6 +1,6 @@
 .mapaInput {
     display: flex;
-    justify-content: space-around;
+    justify-content: map-get($flexbox , justify2 );
     margin: 2rem;
 
     .mapa {

@@ -8,15 +8,19 @@ h1 {
     font-style: italic;
     font-size: 50px;
     color: black;
+    font-family: $Tipografia_h1;
+
 }
 
 h2 {
-    font-style: italic;
-    font-size: 50px;
+    @extend h1;
+    font-family: $Tipografia_h2;
 }
 
 h3 {
     font-size: 20px;
+    font-family: $Tipografia_h3;
+    color: white;
 }
 
 @media (max-width: 656px) {
@@ -35,7 +39,8 @@ h3 {
 }
 
 
-.logoLicen, .logoLicen2 {
+.logoLicen,
+.logoLicen2 {
     @media (max-width: 656px) {
         height: 70px;
     }
@@ -61,11 +66,12 @@ h3 {
     width: 100%;
     border-radius: 30px;
     padding: 0.5rem;
+
     &:hover {
-        transition: 1s ;
-        transform: scale(1.02,1.02);
+        transition: 1s;
+        transform: scale(1.02, 1.02);
     }
-    }
+}
 
 
 .row {
