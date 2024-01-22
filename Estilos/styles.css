@@ -44,6 +44,11 @@ h3 {
     height: 110px;
   }
 }
+.logoLicen:hover,
+.logoLicen2:hover {
+  transition: 1s;
+  transform: scale(1.02, 1.02);
+}
 
 .textoDescriptivo {
   text-align: center;
@@ -67,10 +72,6 @@ h3 {
 
 .row {
   --bs-gutter-x: 0rem;
-}
-
-.logoLicen:hover {
-  transform: scale(1.5, 1.5);
 }
 
 .navbar {
