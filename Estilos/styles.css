@@ -31,21 +31,16 @@ h3 {
   }
 }
 @media (max-width: 656px) {
-  .logoLicen {
-    height: 70px;
-  }
-  .logoLicen2 {
+  .logoLicen, .logoLicen2 {
     height: 70px;
   }
 }
 @media (min-width: 657px) {
-  .logoLicen {
-    height: 110px;
-  }
-  .logoLicen2 {
+  .logoLicen, .logoLicen2 {
     height: 110px;
   }
 }
+
 .textoDescriptivo {
   text-align: center;
   padding: 2rem;
@@ -61,9 +56,17 @@ h3 {
   border-radius: 30px;
   padding: 0.5rem;
 }
+.imagenes:hover {
+  transition: 1s;
+  transform: scale(1.02, 1.02);
+}
 
 .row {
   --bs-gutter-x: 0rem;
+}
+
+.logoLicen:hover {
+  transform: scale(1.5, 1.5);
 }
 
 .navbar {

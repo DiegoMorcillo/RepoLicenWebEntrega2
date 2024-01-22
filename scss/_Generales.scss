@@ -34,25 +34,17 @@ h3 {
 
 }
 
-@media (max-width: 656px) {
-    .logoLicen {
+
+.logoLicen, .logoLicen2 {
+    @media (max-width: 656px) {
         height: 70px;
     }
 
-    .logoLicen2 {
-        height: 70px;
-    }
-}
-
-@media (min-width: 657px) {
-    .logoLicen {
-        height: 110px;
-    }
-
-    .logoLicen2 {
+    @media (min-width: 657px) {
         height: 110px;
     }
 }
+
 
 .textoDescriptivo {
     text-align: center;
@@ -68,9 +60,19 @@ h3 {
 .imagenes {
     width: 100%;
     border-radius: 30px;
-    padding: .5rem;
-}
+    padding: 0.5rem;
+    &:hover {
+        transition: 1s ;
+        transform: scale(1.02,1.02);
+    }
+    }
+
 
 .row {
     --bs-gutter-x: 0rem;
+}
+
+
+.logoLicen:hover {
+    transform: scale(1.5, 1.5);
 }
